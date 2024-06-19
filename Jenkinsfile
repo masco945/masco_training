@@ -9,7 +9,7 @@ pipeline {
         IMAGE_TAG = "latest"
         STAGING = "chocoapp-jenkins-staging"
         PRODUCTION = "chocoapp-jenkins-prod"
-        DOCKERHUB_ID = "massi"
+        DOCKERHUB_ID = "mascooo"
         DOCKERHUB_PASSWORD = credentials('dockerhub_password')
     }
     agent none
